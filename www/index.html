@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/normalize.css" media="screen" title="Normalize Stylesheet" charset="utf-8">
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.indigo-pink.min.css">
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/css/style.css" media="screen" title="Personal styling" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Keep</title>
+  </head>
+  <body>
+      <!-- Always shows a header, even in smaller screens. -->
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">Notes</span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation. We hide it in small screens. -->
+        <div class="mdl-layout__header-row">
+      <div class="mdl-layout-spacer"></div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                  mdl-textfield--floating-label mdl-textfield--align-right">
+        <label class="mdl-button mdl-js-button mdl-button--icon"
+               for="fixed-header-drawer-exp">
+          <i class="material-icons">search</i>
+        </label>
+        <div class="mdl-textfield__expandable-holder">
+          <input class="mdl-textfield__input" type="text" name="sample"
+                 id="fixed-header-drawer-exp" />
+        </div>
+      </div>
+    </div>
+        <!-- Right aligned menu below button -->
+    <button id="demo-menu-lower-right"
+            class="mdl-button mdl-js-button mdl-button--icon">
+      <i class="material-icons">more_vert</i>
+    </button>
+
+      <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+          for="demo-menu-lower-right">
+        <li class="mdl-menu__item">Multi-column view</li>
+      </ul>
+          </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">Earvin Asin</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">Notes</a>
+        <a class="mdl-navigation__link" href="">Reminders</a>
+        <a class="mdl-navigation__link" href="">Archive</a>
+        <a class="mdl-navigation__link" href="">Trash</a>
+      </nav>
+    </div>
+    <!--Content area -->
+      <div class="mdl-card mdl-shadow--2dp demo-card-wide">
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Hackathon</h2>
+        </div>
+        <div class="">
+          <input type="checkbox" name="box1" value="first_checkbox"> This is the first checkbox <br>
+          <input type="checkbox" name="box1" value="second_checkbox"> This is the second checkbox <br>
+        </div>
+      </div>
+  </div>
+
+
+  </body>
+</html>
