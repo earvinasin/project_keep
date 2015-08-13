@@ -1,18 +1,59 @@
-  .demo-card-wide.mdl-card {
-     width: 512px;
-   }
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}   
 
-   .demo-card-wide > .mdl-card__title {
-     color: #fff;
-     height: 176px;
-   }
+.mdl-layout__drawer{
+    background: #b3d4fc;
+    color: #fff;
+}
 
-   .demo-card-wide > .mdl-card__menu {
-     color: #000;
-   }
+/*Card manipulation start*/
 
-   .mdl-card{
-     margin: 0 5px !important;
-   }
-   adsffasdfa
-asdfasfasfdasfd
+#card-holder{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    }
+
+#card{
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    margin: 10px 0;
+}
+
+#card h2{        
+    margin: 10px 0;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: normal;
+}
+
+#card img{
+    width: 100%;
+}
+
+#card p{
+    font-size: 1rem;
+    margin: 10px 5px;
+    line-height: normal;
+}
+
+#card button{
+    margin: 5px 0 5px 5px;
+}
+
+#card a{
+    font-size: 1.1rem;
+    margin: 10px 5px;
+    text-decoration: none;
+}
+/*Card manipulation end*/
+
+
+
+
+
+

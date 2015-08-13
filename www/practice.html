@@ -45,14 +45,17 @@
 </div>
         
         <script id="contenttpl" type="text/template">
-            {{#trainingen}}
+            {{#friends}}
                 <div id="card">
                     <h2>{{naam}}</h2>
-                    <img src="{{foto}}" alt="Photo of the training"/>
-                    <p>{{description}}</p>
-                    <button><a href="{{link}}"> {{linktext}}</a></button>
+                    <h3>{{relation}}</h3>
                 </div>  
-            {{/trainingen}}
+            {{/friends}}
+            {{#earvin}}
+                <div id="card">
+                    <h2>{{naam}}</h2>
+                </div>  
+            {{/earvin}}
         </script>
         
         <script type="text/javascript">
@@ -64,8 +67,6 @@
                 });
             });
         </script>
-        
-        
     </body>
     
 </html>

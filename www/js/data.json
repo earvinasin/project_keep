@@ -1,0 +1,48 @@
+{
+"trainingen": [
+{"naam": "Masterclass Internet Marketing",
+    "foto": "http://smday.spangmakandra.com/wp-content/uploads/2015/06/Masterclass-Internet-Marketing-2.png",
+    "description": "Internet Marketing kent verschillende onderdelen waaronder Zoekmachine marketing (SEO enSEA), Affiliate marketing (PPC), Blog marketing, Email marketing, Webvertising, Social mediamarketing en Content marketing.",
+    "link": "http://smday.spangmakandra.com/index.php/trainingen/",
+    "linktext": "Lees meer"
+},
+{
+"naam": "Instagram for Business",
+    "foto": "img/instagram.jpg",
+    "description": "Herken de huidige trends op het gebied van Instagram for Business.",
+    "link": "https://smday.spangmakandra.com/index.php/trainingen/",
+    "linktext": "Lees meer"
+},
+{
+"naam": "Workshop 'Social Media Marketingplan in 8 stappen'",
+    "foto": "http://smday.spangmakandra.com/wp-content/uploads/2013/05/Workshop-social-media-marketingplan-in-8-stappen.png",
+    "description": "Social Media Marketing is een onmisbaar onderdeel van je totale marketing activiteiten in het informatie tijdperk waarin wij nu leven.",
+    "link": "http://smday.spangmakandra.com/index.php/trainingen/",
+    "linktext": "Lees meer"
+},
+{
+"naam": "Masterclass Marketing 3.0",
+    "foto": "http://smday.spangmakandra.com/wp-content/uploads/2015/06/marketing-3.0.jpg",
+    "description": "Marketing moet zich ontwikkelen om relevant te blijven voor consumenten en bedrijven. Dat is dan ook de reden dat marketing opnieuw aan het veranderen is. Nu zijn we in het tijdperk gekomen van marketing 3.0. ",
+    "link": "http://smday.spangmakandra.com/index.php/trainingen/",
+    "linktext": "Lees meer"
+},
+{
+"naam": "Facebook Marketing",
+    "foto": "http://smday.spangmakandra.com/wp-content/uploads/2015/06/MG_0370.png",
+    "description": "Alles over Facebook in 3 uur. Van het maken van een Facebook post, het reageren op vragen, maken van advertenties, bedenken van Facebook campagnes tot aan meten van de resultaten worden in deze training behandeld. Ook wordt ingegaan op hoe Facebook binnen jouw (Online) Marketing strategie past.",
+    "link": "http://smday.spangmakandra.com/index.php/trainingen/",
+    "linktext": "Lees meer"
+}
+],
+ "friends": [
+     {"naam": "Eugenio Bruce", "relation": "Friends/ Co-workers"},
+     {"naam": "Stef Blokdijk", "relation": "Co-workers"},
+     {"naam": "Spang Makandra N.V.", "relation": "My workplace!"}
+    ],
+"earvin":[
+    {"naam": "NaNaNa1"},
+    {"naam": "NaNaNa2"},
+    {"naam": "NaNaNa3"}
+]
+}
